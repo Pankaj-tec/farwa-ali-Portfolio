@@ -1,0 +1,14 @@
+.social__cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 762px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 135px;
+}
+.social__icon{
+    max-width: 38px;
+    width: 100%;
+    cursor: pointer;
+}

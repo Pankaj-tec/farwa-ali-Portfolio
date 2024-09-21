@@ -1,0 +1,83 @@
+.hero__cont {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.hero__left {
+    max-width: 698px;
+    width: 100%;
+}
+
+.hero__title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--black);
+}
+
+.hero__subtitle {
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--blue);
+}
+
+.hero__heading {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 110%;
+    color: var(--yellow);
+    text-align-last: end;
+    margin-bottom: 21px;
+}
+
+.hero__desc {
+    color: var(--black);
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 167%;
+}
+
+.hero__image img {
+    max-width: 616px;
+    width: 100%;
+}
+
+.hero__btns {
+    display: flex;
+    gap: 2rem;
+}
+
+.hero__hire {
+    padding-inline: 50px;
+}
+
+.hero__dowanload {
+    background-color: white;
+    border: 1px solid var(--yellow);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.hero__dowanload:hover{
+   border-color: transparent;
+   background-color: var(--blue);
+   color: var(--white);
+}
+.hero__dowanload:hover img{
+    filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(862%) hue-rotate(167deg) brightness(120%) contrast(103%);
+}
+
+.hero__dowanload span {
+    color: var(--yellow);
+}
+.hero__dowanload:hover span{
+    color: var(--white);
+}
+
+.heroDowanloadImg {
+    max-width: 19px;
+    display: inline-block;
+    width: 100%;
+    height: 19px;
+}

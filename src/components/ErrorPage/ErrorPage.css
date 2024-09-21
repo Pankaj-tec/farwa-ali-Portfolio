@@ -1,0 +1,18 @@
+
+.error__cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.error__img img{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+.error__title{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgb(195 26 26);
+}

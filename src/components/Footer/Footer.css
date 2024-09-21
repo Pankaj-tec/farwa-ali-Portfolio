@@ -1,0 +1,118 @@
+.ftr {
+    background-color: #1188E7;
+}
+
+.ftr__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 80px 71px;
+    padding-inline: 38px;
+}
+
+.ftr__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.ftr__logoBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.ftr__round {
+    height: 57px;
+    background-color: var(--blue);
+    width: 57px;
+    border-radius: 50%;
+    border: 4px solid var(--light-gray);
+    z-index: 1;
+}
+
+.ftr__round--blue {
+    position: absolute;
+    top: 0;
+    right: 38px;
+    background-color: var(--yellow);
+}
+
+.ftr__logoNme {
+    font-size: 44px;
+    font-weight: 400;
+    color: var(--white);
+}
+
+.ftr__copyRight {
+    text-align: center;
+}
+
+.ftr__navbar {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.ftr__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ftr__socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 488px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ftr__item {
+    padding: 10px 14px;
+
+}
+
+.ftr__link {
+    font-size: 21px;
+    font-weight: 400;
+    color: var(--white);
+    transition: 0.3s ease-in-out;
+}
+.ftr__link:hover{
+    color: var(--black);
+}
+.ftr__btm {
+    background-color: var(--yellow);
+    padding-block: 30px;
+}
+
+.ftr__copyRgtLink {
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 145%;
+}
+
+.ftr__socialIcons {
+    width: 24px;
+    height: 24px;
+    display: block;
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(68%) sepia(98%) saturate(414%) hue-rotate(353deg) brightness(103%) contrast(95%);
+    transition: 0.3s ease-in-out;
+}
+
+.ftr__socialIcons:hover {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(16%) saturate(210%) hue-rotate(229deg) brightness(114%) contrast(100%);
+}
+.ftr__backTop{
+    border-color: transparent;
+}
+.ftr__backTop:hover{
+    border-color: var(--yellow);
+    background-color: palegoldenrod;
+}
